@@ -1,4 +1,4 @@
-/*#clickMe {
+#clickMe {
 	background: #D8B36E;
 	padding: 20px;
 	text-align: center;
@@ -16,7 +16,7 @@
 	border: 2px solid #000;
 }
 
-#change_me {
+/*#change_me {
 	position: absolute; 
 	top: 100px; 
 	left: 400px; 
@@ -40,7 +40,7 @@
 	margin-bottom: 10px;
 } */
 
-div{
+/*div{
 	float: left;
 	height: 245px;
 	text-align: left;
@@ -67,4 +67,4 @@ p{
 	border: solid #000 3px;
 	background-color: white;
 	text-align: center;
-}
+}*/
