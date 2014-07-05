@@ -31,19 +31,26 @@ $(document).ready(function () {
 		var discount_msg;		
 		if($.contains(this, document.getElementById("has_discount"))){
 			//create the random discount
-			var discount = generateRandom(5) + 5;
+			var discount = generateRandom(100) + 1;
 				//create the message string
-			discount_msg = "<p>You get a discount of $" + discount + "%</p>";
+			discount_msg = "<p>Your code:  CODE" + discount + "</p>";
 		}else{
-			discount_msg = "<p>Sorry no discount this time</p>";
+			discount_msg = "<p>Sorry, no discount this time</p>";
 		}
-		//append the message string to the image
-		$(this).append(discount_msg);
 
-		//remove the event
+		//remove the event and display in which image discount was if missed
 		$(".image").each(function () {
+			if ($.contains(this, document.getElementById("has_discount"))) {
+				$(this).addClass("discount");
+			}else{
+				$(this).addClass("no_discount");
+			}
+			
 			$(this).unbind("click");
 		});
+
+		//append the message string to the image
+		$("#result").append(discount_msg);
 	}//end of the click
 
 	$(".image").hover(
