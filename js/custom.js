@@ -46,4 +46,14 @@ $(document).ready(function () {
 		});
 	}//end of the click
 
+	$(".image").hover(
+		function () {
+		// this is the mouseenter event handler
+		$(this).addClass("my_hover");
+	},
+	function () {
+		// this is the mouseleave event handler
+		$(this).removeClass("my_hover");
+	});
+
 });//end of doc ready 
