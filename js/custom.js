@@ -2,6 +2,10 @@ $(document).ready(function () {
 
 	var headClix = 0, eyeClix = 0, noseClix = 0, mouthClix = 0;
 
+	lightningOne();
+	lightningTwo();
+	lightningThree();
+
 	//for animating the head section
 	$("#head").click(function () {
 		//this condition limits the user to nine clicks	
@@ -49,4 +53,21 @@ $(document).ready(function () {
 			mouthClix = 0;
 		}
 	});
-});
+
+});//end doc.onready function
+
+//animating the lightning effect
+function lightningOne () {
+	$("#lightning1").fadeIn("250").fadeOut("250");// this is called function chaining
+	setTimeout("lightningOne()", 2000);
+}
+
+function lightningTwo () {
+	$("#lightning2").fadeIn("fast").fadeOut("fast");// this is called function chaining
+	setTimeout("lightningTwo()", 3000);
+}
+
+function lightningThree () {
+	$("#lightning3").fadeIn("fast").fadeOut("fast");// this is called function chaining
+	setTimeout("lightningThree()", 4000);
+}
