@@ -1,87 +1,80 @@
-.menu_wrapper{
-    width: 96%;
-    border: 1px solid gray;
+body{
+    background-color:#000000;
 }
- 
-.topper{
-    padding: 2%;
-    width: 96%;
-    height: 100px;
+
+p{
+    color:#33FF66;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+#text_top {
+    position:relative;
+    z-index: 4;
+}
+
+#top {
+    position:absolute;
+    left:191px;
+    top:15px;
+    z-index: 4;
+}
+
+#container{
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index: 0;
+}
+
+.lightning{
+    display:none;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index: 0;
+}
+
+#frame {
+    position:absolute;
+    left:100px;
+    top:100px;
+    width:545px;
+    height:629px;
+    background-image:url(../images/frame.png);
+    z-index: 3;
     overflow: hidden;
-    border-bottom: 1px solid gray;
-}
- 
- 
-.left_col{
-    float: left;
-    padding: 4%;
-    width: 41%;
-    height: 1000px;
-    border-right: 1px solid gray;
-   
-}
- 
-.right_col{
-    float: right;
-    padding: 4%;
-    width: 41%;
-    height: 1000px;
-    border-left: 1px solid gray;
-}
- 
-.bottom{
-    clear:both;
-    padding: 2%;
-    width: 96%;
-    height: 60px;
-    border-top: 1px solid gray;
 }
 
-
-.nav{
-    text-align: right;
-    float: right;
-    list-style: none;
-    padding-left: 15px;
+#pic_box{
+    position:relative; 
+    left:91px; 
+    top:84px; 
+    width:367px; 
+    height:460px; 
+    z-index: 2;
+    overflow: hidden;
 }
 
-
-.menu_entrees li{
-    list-style-type: none;
-    padding-left: 10px;
+.face{
+    position:relative;
+    left:0px;
+    top:0px;    
+    z-index: 1;
 }
 
-
-.menu_list{
-    padding-bottom: 15px;
+#head{
+    height:172px;
 }
 
-.menu_list li{
-    display: inline;
-    list-style-type: none;
-    padding-left: 15px;
-}
-	
-.meat{
-    background-color: "#000000";   
-}
-	
-.hamburger{
-    color: "#000000";  
-}
-	
-.fish{
-    color: "#000000"; 
-}
-   
-.tofu{
-    color: "#00FF00";  
-}
-	
-.portobello{
-    color: "#00FF00"; 
+#eyes{
+    height:79px; 
 }
 
-.veg_leaf{
-    list-style-image:url('../images/leaf.png');
-}	
+#nose{
+    height:86px; 
+}
+
+#mouth{
+    height:117px; 
+}
