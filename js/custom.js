@@ -6,6 +6,9 @@ $(document).ready(function () {
 	$("button#vegOn").click(function () {
 		if (v == false) {
 			$f = $(".fish").parent().parent().detach();//relationship chaining
+			$(".hamburger").replaceWith("<li class='portobello'><em>Portobello Mushroom</em></li>");
+			$(".meat").after("<li>Tofu</li>");
+			$m = $(".meat").detach();
 			v = true;
 		}
 		
