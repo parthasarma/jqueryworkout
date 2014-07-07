@@ -10,10 +10,10 @@ $(document).ready(function () {
 	$("#head").click(function () {
 		//this condition limits the user to nine clicks	
 		if (headClix < 9) {
-			$("#head").animate({left : "-=367px"}, 500);
+			$(this).animate({left : "-=367px"}, 500);
 			headClix += 1;
 		}else{
-			$("#head").animate({left: "0px"}, 500);
+			$(this).animate({left: "0px"}, 500);
 			//reset the headclix variable to 0 after ninth click
 			headClix = 0;
 		}
@@ -23,10 +23,14 @@ $(document).ready(function () {
 	$("#eyes").click(function () {
 		//this condition limits the user to nine clicks	
 		if (eyeClix < 9) {
-			$("#eyes").animate({left : "-=367px"}, 500);
+			$(this).animate({left : "-=367px"}, 500);
 			eyeClix += 1;
 		}else{
+<<<<<<< HEAD
 			$("#eyes").animate({left : "0px"}, 500);
+=======
+			$(this).animate({left : "0px"}, 500);
+>>>>>>> doodlestuff_V1.1
 			//reset the eyeClix variable to 0 after ninth click
 			eyeClix = 0;
 		}
@@ -36,10 +40,14 @@ $(document).ready(function () {
 	$("#nose").click(function () {
 		//this condition limits the user to nine clicks	
 		if (noseClix < 9) {
-			$("#nose").animate({left : "-=367px"}, 500);
+			$(this).animate({left : "-=367px"}, 500);
 			noseClix += 1;
 		}else{
+<<<<<<< HEAD
 			$("#nose").animate({left : "0px"}, 500);
+=======
+			$(this).animate({left : "0px"}, 500);
+>>>>>>> doodlestuff_V1.1
 			//reset the noseClix variable to 0 after ninth click
 			noseClix = 0;
 		}
@@ -49,10 +57,14 @@ $(document).ready(function () {
 	$("#mouth").click(function () {
 		//this condition limits the user to nine clicks	
 		if (mouthClix < 9) {
-			$("#mouth").animate({left: "-=367px"}, 500);
+			$(this).animate({left: "-=367px"}, 500);
 			mouthClix += 1;
 		}else{
+<<<<<<< HEAD
 			$("#mouth").animate({left: "0px"}, 500);
+=======
+			$(this).animate({left: "0px"}, 500);
+>>>>>>> doodlestuff_V1.1
 			//reset the mouthClix variable to 0 after ninth click
 			mouthClix = 0;
 		}
