@@ -63,15 +63,15 @@ $(document).ready(function () {
 //animating the lightning effect
 function lightningOne () {
 	$("#lightning1").fadeIn("250").fadeOut("250");// this is called function chaining
-	setTimeout("lightningOne()", 2000);
+	setTimeout("lightningOne()", 4000);
 }
 
 function lightningTwo () {
 	$("#lightning2").fadeIn("fast").fadeOut("fast");// this is called function chaining
-	setTimeout("lightningTwo()", 3000);
+	setTimeout("lightningTwo()", 5000);
 }
 
 function lightningThree () {
 	$("#lightning3").fadeIn("fast").fadeOut("fast");// this is called function chaining
-	setTimeout("lightningThree()", 4000);
+	setTimeout("lightningThree()", 7000);
 }
