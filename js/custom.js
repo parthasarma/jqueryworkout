@@ -39,7 +39,7 @@ $(document).ready(function () {
 			$("#nose").animate({left : "-=367px"}, 500);
 			noseClix += 1;
 		}else{
-			$("#nose").animate({left : "0"}, 500);
+			$("#nose").animate({left : "0px"}, 500);
 			//reset the noseClix variable to 0 after ninth click
 			noseClix = 0;
 		}
@@ -52,7 +52,7 @@ $(document).ready(function () {
 			$("#mouth").animate({left: "-=367px"}, 500);
 			mouthClix += 1;
 		}else{
-			$("#mouth").animate({left: "-=367px"}, 500);
+			$("#mouth").animate({left: "0px"}, 500);
 			//reset the mouthClix variable to 0 after ninth click
 			mouthClix = 0;
 		}
