@@ -26,7 +26,7 @@ $(document).ready(function () {
 			$(this).animate({left : "-=367px"}, 500);
 			eyeClix += 1;
 		}else{
-			$(this).animating({left : "0px"}, 500);
+			$(this).animate({left : "0px"}, 500);
 			//reset the eyeClix variable to 0 after ninth click
 			eyeClix = 0;
 		}
