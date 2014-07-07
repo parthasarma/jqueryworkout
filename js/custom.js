@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 $(document).ready(function () {
 
 	var headClix = 0, eyeClix = 0, noseClix = 0, mouthClix = 0;
@@ -77,4 +75,4 @@ function lightningThree () {
 	$("#lightning3").fadeIn("fast").fadeOut("fast");// this is called function chaining
 	setTimeout("lightningThree()", 7000);
 }
->>>>>>> doodlestuff_v1.1
+
