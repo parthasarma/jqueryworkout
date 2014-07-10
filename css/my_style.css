@@ -14,3 +14,12 @@
     position: absolute;
     background-color: red;
 }
+
+.square-big{
+    width: 300px;
+    height: 300px;
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    margin: 20px 0;
+}
